@@ -9,7 +9,7 @@ function App() {
         <Layout>
             <Header className="header-color" title="Tesfa Greaves' Portfolio" scroll>
                 <Navigation>
-                    <Link to="/landingpage">Home</Link>
+                    <Link to="/">Home</Link>
                     <Link to="/aboutme">About Me</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/contact">Contact</Link>
@@ -17,7 +17,7 @@ function App() {
             </Header>
             <Drawer title="My Portfolio">
                 <Navigation>
-                <Link to="/landingpage">Home</Link>
+                <Link to="/">Home</Link>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
