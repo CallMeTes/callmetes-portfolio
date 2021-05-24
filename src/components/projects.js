@@ -16,20 +16,23 @@ class Projects extends Component {
 
           {/* React - Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/iVpDXWJ.png?1) center / cover'}}>
             React Project #1
           </CardTitle>
           <CardText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Fusce ultrices ligula quis auctor placerat.
-            Etiam pulvinar tortor id lacinia sodales.
-            In hac habitasse platea dictumst.
+            My most React project would be creating this website.
+            With the help of the 'React-MLD' library and Paul Hanna from YouTube, we have this beautiful website!
           </CardText>
-          <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>CodePen</Button>
-            <Button colored>LiveDemo</Button>
-          </CardActions>
+          <div class="center-align">
+            <CardActions border>
+              <a href="https://google.com/" rel="noreferrer" target="_blank">
+                <Button colored >Website</Button>
+              </a>
+              <a href="https://github.com/CallMeTes/callmetes-portfolio" rel="noreferrer" target="_blank">
+                <Button colored >Github</Button>
+              </a>
+            </CardActions>
+          </div>
           <CardMenu style={{color: '#fff'}}>
             <IconButton name="share" />
           </CardMenu>
