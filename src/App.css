@@ -21,6 +21,10 @@
   display: flex;
 }
 
+.center-align {
+  text-align: center;
+}
+
 .contact-body {
   margin: auto;
   /* background: grey; */
@@ -95,7 +99,7 @@
 .social-links {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 15%;
   margin: auto;
 }
 

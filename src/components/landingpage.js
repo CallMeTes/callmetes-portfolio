@@ -20,23 +20,13 @@ function LandingPage() {
           <div className="social-links">
 
             {/* LinkedIn */}
-            <a href="http://google.com/" rel="noreferrer" target="_blank">
+            <a href="https://www.linkedin.com/in/tesfa-greaves/" rel="noreferrer" target="_blank">
               <i className="fab fa-linkedin" rel="noreferrer" aria-hidden='true' />
             </a>
 
             {/* GitHub */}
-            <a href="http://google.com/" rel="noreferrer" target="_blank">
+            <a href="https://github.com/CallMeTes" rel="noreferrer" target="_blank">
               <i className="fab fa-github-square" rel="noreferrer" aria-hidden='true' />
-            </a>
-
-            {/* Freecodecamp */}
-            <a href="http://google.com/" rel="noreferrer" target="_blank">
-              <i className="fab fa-free-code-camp" rel="noreferrer" aria-hidden='true' />
-            </a>
-
-            {/* Youtube */}
-            <a href="http://google.com/" rel="noreferrer" target="_blank">
-              <i className="fab fa-youtube-square" rel="noreferrer" aria-hidden='true' />
             </a>
 
           </div>
