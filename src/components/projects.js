@@ -12,7 +12,7 @@ class Projects extends Component {
     {/* React Tab */}
     if(this.state.activeTab === 0) {
       return (
-        <div>
+        <div className="projects-grid">
         {/* React - Project 1 */}
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
           <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
@@ -101,15 +101,14 @@ class Projects extends Component {
           <Tab>Java</Tab>
         </Tabs>
 
-        <section className="projects-grid">
-          <Grid className="projects-grid">
-            <Cell col={12}>
-              <div className="content">
-                {this.toggleCategories()}
-              </div>
-            </Cell>
-          </Grid>
-        </section>
+
+        <Grid>
+          <Cell col={12}>
+            <div className="content">
+              {this.toggleCategories()}
+            </div>
+          </Cell>
+        </Grid>
       </div>
     );
   }
