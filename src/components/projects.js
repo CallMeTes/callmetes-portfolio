@@ -40,6 +40,26 @@ class Projects extends Component {
 
         {/* React - Project 2 */}
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/NfJN0jE.png) center / cover'}}>
+          Design Pad Group Project
+        </CardTitle>
+        <div class="center-align">
+        <CardText>
+          This group project was to use the funtionallity of React to create a design pad where a user can add and remove colors at will.
+        </CardText>
+          <CardActions border>
+            <a href="https://github.com/CS-Team-Project-CMP-464-Spring-2021/HW3" rel="noreferrer" target="_blank">
+              <Button colored >Github</Button>
+            </a>
+          </CardActions>
+        </div>
+        <CardMenu style={{color: '#fff'}}>
+          <IconButton name="share" />
+        </CardMenu>
+      </Card>
+
+        {/* React - Project 3 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/V6sQSsY.png) center / cover'}}>
           My Favorite Links
         </CardTitle>
