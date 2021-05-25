@@ -1,28 +1,33 @@
+import React, { Component }  from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
 
-function App() {
-  return (
+class App extends Component {
+  render() {
+    return (
     <div className="demo-big-content">
         <Layout>
-            <Header title="Tesfa Greaves' Portfolio" scroll>
+
+            <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Tesfa Greaves' Portfolio</Link>} scroll>
                 <Navigation>
-                    <Link to="/landingpage">Home</Link>
-                    <Link to="/aboutme">About</Link>
+                    <Link to="/">Home</Link>
+                    <Link to="/aboutme">About Me</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/contact">Contact</Link>
                 </Navigation>
             </Header>
-            <Drawer title="My Portfolio">
-                <Navigation>
-                <Link to="/landingpage">Home</Link>
-                <Link to="/aboutme">About</Link>
+
+            <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">My Portfolio</Link>}>
+              <Navigation>
+                <Link to="/">Home</Link>
+                <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
-                </Navigation>
+              </Navigation>
             </Drawer>
+
 
             <Content>
                 <div className="page-content" />
@@ -32,6 +37,7 @@ function App() {
         </Layout>
     </div>
   );
+}
 }
 
 export default App;
