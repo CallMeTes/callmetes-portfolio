@@ -16,32 +16,10 @@ class Contact extends Component {
               style={{height: '250px'}}
               />
             <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Fusce ultrices ligula quis auctor placerat. Etiam pulvinar tortor id lacinia sodales.
-              In hac habitasse platea dictumst. Mauris erat lectus, vulputate a varius sed, efficitur dictum felis.              Integer laoreet placerat fermentum. Nullam sit amet leo nibh.
+              <i className="far fa-envelope" rel="noreferrer" aria-hidden='true'/> <br />
+                tesfa.greaves@lc.cuny.edu
             </p>
           </Cell>
-
-          {/*Right Half Cell*/}
-          <Cell col={6}>
-            <h2>Contact Me</h2>
-            <hr/>
-
-            <div className="contact-list">
-              <List>
-
-                <ListItem>
-                  <ListItemContent style={{fontSize: '30px'}}>
-                    <i className="far fa-envelope" rel="noreferrer" aria-hidden='true'/>
-                      tesfa.greaves@lc.cuny.edu
-                  </ListItemContent>
-                </ListItem>
-
-              </List>
-            </div>
-
-          </Cell>
-
         </Grid>
       </div>
     )

@@ -17,13 +17,13 @@ class Projects extends Component {
           {/* React - Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/iVpDXWJ.png?1) center / cover'}}>
-            React Project #1
+            Portfolio Project
           </CardTitle>
-          <CardText>
-            My most React project would be creating this website.
-            With the help of the 'React-MLD' library and Paul Hanna from YouTube, we have this beautiful website!
-          </CardText>
           <div class="center-align">
+          <CardText>
+            My most recent React project would be creating this website.
+            With the help of the 'React-MLD' library and <a href="https://paulhanna1933.github.io/">Paul Hanna</a> from YouTube, we have this beautiful website!
+          </CardText>
             <CardActions border>
               <a href="https://google.com/" rel="noreferrer" target="_blank">
                 <Button colored >Website</Button>
@@ -38,47 +38,25 @@ class Projects extends Component {
           </CardMenu>
         </Card>
 
-          {/* React - Project 2 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
-            React Project #2
-          </CardTitle>
-          <CardText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Fusce ultrices ligula quis auctor placerat.
-            Etiam pulvinar tortor id lacinia sodales.
-            In hac habitasse platea dictumst.
-          </CardText>
+        {/* React - Project 2 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/V6sQSsY.png) center / cover'}}>
+          My Favorite Links
+        </CardTitle>
+        <div class="center-align">
+        <CardText>
+          This homework was to test our skills using App.js and a Link Container.
+        </CardText>
           <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>CodePen</Button>
-            <Button colored>LiveDemo</Button>
+            <a href="https://github.com/CallMeTes/favLinks" rel="noreferrer" target="_blank">
+              <Button colored >Github</Button>
+            </a>
           </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
-          </CardMenu>
-        </Card>
-
-          {/* React - Project 3 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
-              React Project #3
-            </CardTitle>
-            <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Fusce ultrices ligula quis auctor placerat.
-              Etiam pulvinar tortor id lacinia sodales.
-              In hac habitasse platea dictumst.
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
+        </div>
+        <CardMenu style={{color: '#fff'}}>
+          <IconButton name="share" />
+        </CardMenu>
+      </Card>
 
         </div>
       )
@@ -89,66 +67,25 @@ class Projects extends Component {
 
           {/* MongoDB - Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
-            MongoDB Project #1
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/cJodL5p.png) center / cover'}}>
+            MDBlockchain Project
           </CardTitle>
+          <div class="center-align">
           <CardText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Fusce ultrices ligula quis auctor placerat.
-            Etiam pulvinar tortor id lacinia sodales.
-            In hac habitasse platea dictumst.
+            <b><i>Under Construction</i></b><br />
+              My Team and I were challanged to create a blockchain database for a fictional medical center.
+              Our success with this project motivated us to continue through the summer to figure out how we can take our project further!
           </CardText>
           <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>CodePen</Button>
-            <Button colored>LiveDemo</Button>
+            <a href="https://github.com/CS-Team-Project-CMP-485-Spring-2021" rel="noreferrer" target="_blank">
+              <Button colored >Github</Button>
+            </a>
           </CardActions>
+          </div>
           <CardMenu style={{color: '#fff'}}>
             <IconButton name="share" />
           </CardMenu>
         </Card>
-
-          {/* MongoDB - Project 2 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
-            MongoDB Project #2
-          </CardTitle>
-          <CardText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Fusce ultrices ligula quis auctor placerat.
-            Etiam pulvinar tortor id lacinia sodales.
-            In hac habitasse platea dictumst.
-          </CardText>
-          <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>CodePen</Button>
-            <Button colored>LiveDemo</Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
-          </CardMenu>
-        </Card>
-
-          {/* MongoDB - Project 3 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
-              MongoDB Project #3
-            </CardTitle>
-            <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Fusce ultrices ligula quis auctor placerat.
-              Etiam pulvinar tortor id lacinia sodales.
-              In hac habitasse platea dictumst.
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
 
         </div>
       )
@@ -160,10 +97,10 @@ class Projects extends Component {
           {/* R - Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://media.istockphoto.com/videos/stock-market-bar-graph-trading-video-id1026933968?s=640x640) center / cover'}}>
-            R Project #1
+            New York Stock Exchange Data Project
           </CardTitle>
           <CardText>
-            New York Stock Exchange Data Project in R
+            This project was to explore equations and utilize the processing power of R with the chosen dataset being the New York Stock Exchange.
           </CardText>
           <div class="center-align">
             <CardActions border>
@@ -179,120 +116,6 @@ class Projects extends Component {
             <IconButton name="share" />
           </CardMenu>
         </Card>
-
-          {/* R - Project 2
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
-            R Project #2
-          </CardTitle>
-          <CardText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Fusce ultrices ligula quis auctor placerat.
-            Etiam pulvinar tortor id lacinia sodales.
-            In hac habitasse platea dictumst.
-          </CardText>
-          <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>CodePen</Button>
-            <Button colored>LiveDemo</Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
-          </CardMenu>
-        </Card>
-        */}
-
-          {/* R - Project 3
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
-              R Project #3
-            </CardTitle>
-            <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Fusce ultrices ligula quis auctor placerat.
-              Etiam pulvinar tortor id lacinia sodales.
-              In hac habitasse platea dictumst.
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-          */}
-
-        </div>
-      )
-    }  else if (this.state.activeTab === 3) {
-      {/* Java Tab */}
-      return (
-        <div className="projects-grid">
-
-          {/* Java - Project 1 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
-            Java Project #1
-          </CardTitle>
-          <CardText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Fusce ultrices ligula quis auctor placerat.
-            Etiam pulvinar tortor id lacinia sodales.
-            In hac habitasse platea dictumst.
-          </CardText>
-          <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>CodePen</Button>
-            <Button colored>LiveDemo</Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
-          </CardMenu>
-        </Card>
-
-          {/* Java - Project 2 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
-            Java Project #2
-          </CardTitle>
-          <CardText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Fusce ultrices ligula quis auctor placerat.
-            Etiam pulvinar tortor id lacinia sodales.
-            In hac habitasse platea dictumst.
-          </CardText>
-          <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>CodePen</Button>
-            <Button colored>LiveDemo</Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
-          </CardMenu>
-        </Card>
-
-          {/* Java - Project 3 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>
-              Java Project #3
-            </CardTitle>
-            <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Fusce ultrices ligula quis auctor placerat.
-              Etiam pulvinar tortor id lacinia sodales.
-              In hac habitasse platea dictumst.
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
 
         </div>
       )
@@ -310,7 +133,6 @@ class Projects extends Component {
           <Tab>React</Tab>
           <Tab>MongoDB</Tab>
           <Tab>R</Tab>
-          <Tab>Java</Tab>
 
         </Tabs>
 

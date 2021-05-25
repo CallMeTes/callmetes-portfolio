@@ -15,7 +15,7 @@ function LandingPage() {
         <div className="banner-text">
           <h1>Full Stack Web Developer</h1>
           <hr/>
-          <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | Node.JS | Express | MongoDB </p>
+          <p>HTML/CSS | Bootstrap | JavaScript | React | Node.JS | Express | MongoDB </p>
 
           <div className="social-links">
 

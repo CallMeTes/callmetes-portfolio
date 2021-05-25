@@ -19,6 +19,7 @@
 
 .projects-grid {
   display: flex;
+  justify-content: center;
 }
 
 .center-align {
@@ -53,6 +54,11 @@
 .contact-grid p {
 
 }
+
+.projects-grid a {
+  color: #3f51b5;
+}
+
 
 .contact-grid hr {
   border-top: 5px dotted black;
